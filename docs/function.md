@@ -46,10 +46,12 @@ arg1@int
 ### 매개변수 커스텀하기
 [Selector Parameter](https://learn.microsoft.com/en-us/minecraft/creator/documents/targetselectors#selector-parameters) 형식을 사용하여 매개변수에도 조건이나 정보를 담을 수 있습니다.
 #### nullable
+정해진 값 대신 `null`을 받을 수 있습니다.
 ```c
 @ /test arg1@int[nullable=true] #!#;
 ```
 #### 기본값 넣기
+값이 `null`일떄 `default`의 값으로 바꿉니다.
 ```c
 @ /test arg1@int[default=5] #!#;
 ```
