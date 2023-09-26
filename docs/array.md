@@ -2,7 +2,7 @@
 
 ### 배열 선언
 ```xml
-@ <배열명>[type=array,element=<요소의자료형>,value(<요소>...),size=<배열크기>,constraintSize=true];
+@ <배열명>[type=array,element=<요소의자료형>,value=(<요소>...),size=<배열크기>,constraintSize=true];
 ```
 `constraintSize` - 배열 크기가 선언떄 지정된 값으로 고정됩니다. (안적어도 됨)
 
