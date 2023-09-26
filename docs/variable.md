@@ -22,7 +22,7 @@ mcCmd의 변수 문법은 마인크래프트 명령어의 [target selector](http
 /say @num;
 ```
 
-### 마크처럼 사용하기
+### 마인크래프트처럼 사용하기
 ```k
 @ p[type=string,value="steve"];
 
